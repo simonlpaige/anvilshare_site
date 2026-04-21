@@ -376,6 +376,29 @@ small {
   margin-top: var(--space-8);
 }
 
+.cta-mid {
+  text-align: center;
+}
+
+.cta-mid .cta-group {
+  justify-content: center;
+  margin-top: 0;
+}
+
+.cta-aside {
+  font-size: 0.9rem;
+  color: var(--smoke);
+}
+
+.cta-aside a {
+  color: var(--amber);
+  text-decoration: none;
+}
+
+.cta-aside a:hover {
+  text-decoration: underline;
+}
+
 /* --------------------------------------------------------------------------
    7. Cards + Surfaces
    -------------------------------------------------------------------------- */
