@@ -725,6 +725,107 @@ td .mono-price {
 }
 
 /* --------------------------------------------------------------------------
+   18a. Single Brain extensions
+   -------------------------------------------------------------------------- */
+
+/* Tier cards: extends .card. Stack price + flag + features. */
+.card-tier {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.card-tier .tier-flag {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--iron-glow);
+}
+
+.card-tier .tier-price {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: var(--text-md);
+  color: var(--iron-glow);
+}
+
+.card-tier h3 {
+  margin-bottom: 0;
+}
+
+.card-featured {
+  border-color: var(--iron-glow);
+}
+
+.tier-features {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-2) 0 0 0;
+}
+
+.tier-features li {
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--rule);
+  font-size: var(--text-sm);
+  color: var(--ash);
+  line-height: 1.55;
+}
+
+.tier-features li:first-child {
+  border-top: none;
+}
+
+/* Plain feature list with bordered rows */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  max-width: var(--max-line);
+  margin: var(--space-4) 0 0 0;
+}
+
+.feature-list li {
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ash);
+}
+
+.feature-list li:first-child {
+  border-top: 1px solid var(--rule);
+}
+
+.feature-list strong {
+  color: var(--chalk);
+  display: block;
+  margin-bottom: var(--space-1);
+}
+
+/* Negative list (things it isn't) */
+.not-list {
+  list-style: none;
+  padding: 0;
+  max-width: var(--max-line);
+  margin: var(--space-4) 0 0 0;
+}
+
+.not-list li {
+  padding: var(--space-3) 0;
+  color: var(--ash);
+  position: relative;
+  padding-left: var(--space-6);
+}
+
+.not-list li::before {
+  content: "x";
+  font-family: var(--mono);
+  color: var(--iron-glow);
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+  top: var(--space-3);
+}
+
+/* --------------------------------------------------------------------------
    18. Responsive - Mobile first
    -------------------------------------------------------------------------- */
 
