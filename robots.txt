@@ -1,0 +1,6 @@
+# robots.txt for anvilshare.ai
+User-agent: *
+Allow: /
+
+# AI agent overview: /llms.txt
+Sitemap: https://anvilshare.ai/sitemap.xml

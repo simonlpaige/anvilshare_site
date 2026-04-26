@@ -1,0 +1,38 @@
+# Anvilshare
+
+> We replace the shelf of SaaS subscriptions with one small handful of AI tools that quietly do the work of a dozen subscriptions. Same answers, fewer tabs, four hours back on Tuesday.
+
+## What we offer
+Anvilshare audits a small business's SaaS stack, identifies the subscriptions that an AI brain can replace, and builds a single replacement brain that runs in the business's own environment. We focus on Kansas City home-services first (HVAC, plumbing, electrical, roofing) because those operations have the heaviest SaaS bloat per employee.
+
+## How it works
+1. **Audit** ($500). We map your current stack and quantify what you are paying for and what is actually used.
+2. **Build** (quoted per engagement). We replace the redundant subs with one AI brain: scheduling, dispatch, customer notes, follow-ups, light bookkeeping.
+3. **Savings split** (50% for 36 months). You keep all the savings after that.
+
+## Who it's for
+Small home-services businesses (5 to 50 employees) in the Kansas City metro who feel buried under SaaS fees and tab-switching. Owner-operators who run the books themselves are the sweet spot.
+
+## Pricing
+- Audit: $500 flat.
+- Build: quoted per engagement based on stack size.
+- Three build tiers for the standalone brain (small, medium, large).
+- Savings split: 50% of monthly SaaS savings to anvilshare for 36 months. After that, 100% yours.
+
+## Important pages
+- [Home](https://anvilshare.ai/)
+- [How it works](https://anvilshare.ai/how-it-works.html)
+- [Plans](https://anvilshare.ai/plans.html)
+- [Contact](https://anvilshare.ai/contact.html)
+- [Single Brain demo](https://anvilshare.ai/single-brain/)
+- [Privacy](https://anvilshare.ai/privacy.html)
+- [Terms](https://anvilshare.ai/terms.html)
+
+## Contact
+- Email: hello@anvilshare.com
+- Service area: Kansas City metro (Missouri + Kansas)
+
+## Parent company
+Anvilshare is a DBA of Groundlayer LLC, a Missouri limited liability company. Sole member: Simon L. Paige.
+
+Last updated: 2026-04-26
