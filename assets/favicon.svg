@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <rect width="32" height="32" fill="#111009"/>
-  <text x="16" y="23" font-family="Source Serif 4, Georgia, serif" font-weight="700" font-size="22" fill="#EAE4D8" text-anchor="middle">a</text>
-  <rect x="8" y="26" width="16" height="2" fill="#E8960E"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Anvilshare">
+  <rect x="0" y="0" width="64" height="64" fill="#eef0f2"/>
+  <g transform="translate(28 32) scale(0.18)">
+    <path d="M -120 -60 L 120 -60 L 90 -20 L -90 -20 Z" fill="#0f1620"/>
+    <path d="M -40 -20 L 40 -20 L 28 30 L -28 30 Z" fill="#0f1620"/>
+    <path d="M -100 30 L 100 30 L 100 60 L -100 60 Z" fill="#0f1620"/>
+    <path d="M 120 -60 L 170 -50 L 158 -30 L 90 -20 Z" fill="#5b7a99"/>
+  </g>
 </svg>
