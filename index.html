@@ -1,326 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>anvilshare.ai - Replace the shelf. Keep the afternoon.</title>
-  <meta name="description" content="anvilshare gives you the small handful of AI tools that quietly do the work of a dozen SaaS subscriptions. Same answers, fewer tabs, four hours back on Tuesday.">
-  <meta property="og:title" content="anvilshare.ai - Replace the shelf. Keep the afternoon.">
-  <meta property="og:description" content="The small handful of AI tools that do the work of a dozen SaaS subscriptions.">
-  <meta property="og:url" content="https://anvilshare.ai/">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="anvilshare.ai">
-  <meta name="twitter:description" content="Replace the shelf. Keep the afternoon.">
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-    "@type": "Organization",
-    "@id": "https://anvilshare.ai/#org",
-    "name": "Anvilshare",
-    "url": "https://anvilshare.ai/",
-    "logo": "https://anvilshare.ai/assets/favicon.svg",
-    "description": "Replaces costly SaaS shelves with single AI brains for Kansas City small businesses.",
-    "parentOrganization": {
-      "@type": "Organization",
-      "name": "Groundlayer LLC",
-      "url": "https://groundlayer.co"
-    },
-    "areaServed": {
-      "@type": "Place",
-      "name": "Kansas City metro, MO/KS"
-    }
-  },
-    {
-      "@type": "WebSite",
-      "url": "https://anvilshare.ai/",
-      "name": "Anvilshare",
-      "publisher": { "@id": "https://anvilshare.ai/#org" },
-      "inLanguage": "en"
-    },
-    {
-      "@type": "Service",
-      "name": "SaaS Replacement (AI Brain Build)",
-      "provider": { "@id": "https://anvilshare.ai/#org" },
-      "description": "Audit your SaaS stack, replace redundant subscriptions with a single AI brain that runs in your environment.",
-      "areaServed": { "@type": "Place", "name": "Kansas City metro" },
-      "offers": {
-        "@type": "Offer",
-        "price": "500",
-        "priceCurrency": "USD",
-        "description": "Audit fee. Build quoted per engagement. 50% savings split for 36 months."
-      }
-    }
-  ]
-}
-</script>
-  <link rel="canonical" href="https://anvilshare.ai/">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/site.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anvilshare</title>
+<meta name="description" content="We replace expensive SaaS with software you actually own. Pay us a slice of what you save.">
+<link rel="canonical" href="https://anvilshare.ai/">
+<meta property="og:title" content="Anvilshare, replacement studio for expensive SaaS">
+<meta property="og:description" content="We replace expensive SaaS with software you actually own. Pay us a slice of what you save.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://anvilshare.ai/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Anvilshare">
+<meta name="twitter:description" content="We replace expensive SaaS with software you actually own.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: #0a0a0a;
+    color: #f2f2f2;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: #FF6B35; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+  header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 64px; }
+  .brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
+  .brand .dot { color: #FF6B35; }
+  .nav-email { font-size: 14px; color: #FF6B35; }
+  h1 {
+    font-size: 38px;
+    line-height: 1.15;
+    margin: 0 0 20px;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+  h1 .accent { color: #FF6B35; }
+  .lede {
+    font-size: 19px;
+    color: #cfcfcf;
+    margin: 0 0 56px;
+    max-width: 640px;
+  }
+  section { margin-bottom: 56px; }
+  h2 {
+    font-size: 22px;
+    margin: 0 0 16px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+  }
+  h2::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #FF6B35;
+    margin-right: 12px;
+    vertical-align: 1px;
+  }
+  p { margin: 0 0 14px; color: #d8d8d8; }
+  ul { padding-left: 20px; margin: 0 0 14px; }
+  li { margin-bottom: 8px; color: #d8d8d8; }
+  .pricing-grid {
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .pricing-row {
+    padding: 18px 20px;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  .pricing-row:last-child { border-bottom: 0; }
+  .pricing-row strong { color: #FF6B35; }
+  form {
+    display: grid;
+    gap: 12px;
+    max-width: 480px;
+    margin-top: 16px;
+  }
+  label {
+    font-size: 13px;
+    color: #a0a0a0;
+    margin-bottom: -6px;
+  }
+  input, textarea {
+    background: #141414;
+    border: 1px solid #2a2a2a;
+    color: #f2f2f2;
+    padding: 12px 14px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    width: 100%;
+  }
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #FF6B35;
+  }
+  textarea { resize: vertical; min-height: 90px; }
+  button {
+    background: #FF6B35;
+    color: #0a0a0a;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    justify-self: start;
+  }
+  button:hover { background: #ff8255; }
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid #2a2a2a;
+    font-size: 13px;
+    color: #888;
+  }
+  @media (max-width: 540px) {
+    main { padding: 32px 20px 64px; }
+    h1 { font-size: 30px; }
+    .lede { font-size: 17px; }
+  }
+</style>
 </head>
 <body>
+<main>
 
-  <a href="#main" class="skip-link">Skip to content</a>
-
-  <header class="site-header">
-    <div class="wrap">
-      <a href="/" aria-label="anvilshare.ai home">
-        <img src="/assets/logo-primary.svg" alt="anvilshare.ai" class="site-logo" width="320" height="40">
-      </a>
-      <nav class="site-nav" aria-label="Main">
-        <a href="/" aria-current="page">Home</a>
-        <a href="/how-it-works.html">How it works</a>
-        <a href="/#brain">The brain</a>
-        <a href="/plans.html">Plans</a>
-        <a href="/contact.html">Contact</a>
-      </nav>
-    </div>
+  <header>
+    <div class="brand">anvilshare<span class="dot">.</span></div>
+    <nav class="nav-email" aria-label="Primary">
+      <a href="/ai-ops-cockpit.html" style="margin-right: 14px;">Cockpit</a>
+      <a href="/alternatives.html" style="margin-right: 14px;">Alternatives</a>
+      <a href="/faq.html" style="margin-right: 14px;">FAQ</a>
+      <a href="mailto:hello@anvilshare.com">hello@anvilshare.com</a>
+    </nav>
   </header>
 
-  <main id="main">
+  <h1>We replace expensive SaaS with software <span class="accent">you actually own</span>. Pay us a slice of what you save.</h1>
 
-    <!-- Hero -->
-    <section class="hero">
-      <div class="wrap">
-        <div class="meta-row">
-          <div class="l">
-            <span>anvilshare.ai</span>
-            <span>fig 00 / hero</span>
-          </div>
-          <div class="r">
-            <span>rev. 04 / 2026</span>
-            <span>kansas city</span>
-          </div>
-        </div>
+  <p class="lede">Most business software is twenty-year-old code in a fresh paint job. Built for huge companies, sold to small ones, priced like rent. We rewrite it for your shop and split the savings with you.</p>
 
-        <h1 class="display">Replace the shelf.<br><em>Keep the afternoon.</em></h1>
+  <section>
+    <h2>Who this is for</h2>
+    <p>Small business owners stuck paying $200 a month or more for ServiceTitan, Jobber, Mitchell1, Buildium, or one of the other platforms that bills you like an enterprise customer and treats you like a ticket number.</p>
+    <p>If you use about 20% of what your software does and pay 100% of the price, this is for you.</p>
+  </section>
 
-        <p class="lede">anvilshare gives you the small handful of AI tools that quietly do the work of a dozen SaaS subscriptions. Same answers, fewer tabs, four hours back on Tuesday.</p>
+  <section>
+    <h2>How it works</h2>
+    <ul>
+      <li><strong>The audit.</strong> We sit with you for 90 minutes, look at every login you pay for, and write you a plain-English report. Flat fee. You keep the report no matter what you do next.</li>
+      <li><strong>The build.</strong> If the math makes sense, we build the replacement. First version in 2 to 4 weeks. You keep paying your old vendor until our software actually works. Then you cancel them.</li>
+      <li><strong>Share the savings.</strong> The day you cancel the old SaaS, the meter starts. You pay us a slice of what you used to pay them, every month, for three years. After that you license the software for cheap or walk away with your data.</li>
+    </ul>
+  </section>
 
-        <div class="cta-row">
-          <a class="btn btn-primary" href="mailto:simon@anvilshare.ai?subject=Anvilshare%20intro%20call">Book a 15-minute call</a>
-          <a class="btn btn-secondary" href="/how-it-works.html">See how it works</a>
-          <a class="btn btn-secondary" href="#brain">Or just the brain</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 1: The boring math -->
-    <section class="section">
-      <div class="wrap">
-        <div class="measure-row">
-          <div>
-            <span class="eyebrow">fig 01 / the math</span>
-            <h2 class="section-title">The boring math.</h2>
-          </div>
-          <div>
-            <p>The median customer pays for nine SaaS tools and opens three. The other six are autopay you forgot about, charging four figures a year for tabs nobody clicks.</p>
-            <p>An audit walks through the line items, marks what's actually load-bearing, and shows what a replacement would cost. The first number is usually a surprise.</p>
-
-            <p class="aside">We didn't set out to build a smaller stack. We set out to build one where the tools answer questions instead of asking them. The smaller stack is a side effect, the way a good shop has fewer hammers than a bad one.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 2: How it works (3 plates) -->
-    <section class="section">
-      <div class="wrap">
-        <span class="eyebrow">fig 02 / three steps</span>
-        <h2 class="section-title">How it works.</h2>
-
-        <div class="grid-3">
-          <article class="plate">
-            <span class="corner tl">fig 02.01</span>
-            <span class="corner tr">audit</span>
-            <span class="corner bl">$500</span>
-            <div class="plate-body">
-              <h3>Audit.</h3>
-              <p>A blunt pass through your stack. What you pay, what you actually open, what's replaceable. You keep the report no matter what.</p>
-            </div>
-          </article>
-
-          <article class="plate">
-            <span class="corner tl">fig 02.02</span>
-            <span class="corner tr">build</span>
-            <span class="corner bl">your hardware</span>
-            <div class="plate-body">
-              <h3>Build.</h3>
-              <p>We write the replacement. It runs on your server, not ours. Open code, documented, yours. Fire us tomorrow and the software keeps working.</p>
-            </div>
-          </article>
-
-          <article class="plate">
-            <span class="corner tl">fig 02.03</span>
-            <span class="corner tr">split</span>
-            <span class="corner bl">36 months</span>
-            <div class="plate-body">
-              <h3>Split.</h3>
-              <p>We take half of what you save each month for 36 months. After that, the system is yours free. No renewal, no escalation, no kill switch.</p>
-            </div>
-          </article>
-        </div>
-
-        <div class="cta-row">
-          <a class="btn btn-secondary" href="/how-it-works.html">Read the long version</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 3: What's replaceable -->
-    <section class="section">
-      <div class="wrap">
-        <span class="eyebrow">fig 03 / what we replace</span>
-        <h2 class="section-title">What's on the shelf.</h2>
-
-        <div class="grid-2">
-          <ul class="flat-list">
-            <li>
-              <h4>Dispatch software</h4>
-              <p>The scheduling and routing tools your office manager fights with every morning. The most expensive line on the statement, and usually the easiest to replace.</p>
-            </li>
-            <li>
-              <h4>Field service management</h4>
-              <p>Job tracking, work orders, the mobile app the techs use in the field. Most shops use a third of the features and pay for all of them.</p>
-            </li>
-            <li>
-              <h4>Invoicing</h4>
-              <p>Billing, payment collection, the QuickBooks integration that never quite worked. A replacement that actually syncs gives you back an hour or two each week.</p>
-            </li>
-          </ul>
-
-          <ul class="flat-list">
-            <li>
-              <h4>Scheduling</h4>
-              <p>Appointment booking, calendar management, customer notifications. Simple enough that a custom build costs a fraction of the subscription.</p>
-            </li>
-            <li>
-              <h4>Point of sale</h4>
-              <p>Counter and field payment processing. If your POS takes more than 2% of transactions plus a flat monthly fee, it's worth a look.</p>
-            </li>
-            <li>
-              <h4>Inventory and basic CRM</h4>
-              <p>Parts tracking, customer records, service history. The kind of thing a spreadsheet almost handles but shouldn't have to.</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 4: The brain (folded Single Brain) -->
-    <section class="section" id="brain">
-      <div class="wrap">
-        <div class="measure-row">
-          <div>
-            <span class="eyebrow">fig 04 / the brain</span>
-            <h2 class="section-title">And one tool that comes with every build.</h2>
-          </div>
-          <div>
-            <p>Every replacement we ship includes a private business brain. It's a chat assistant that reads your customer list, your past quotes, your invoices, your notes. Ask it "who haven't we heard from in 90 days" and get an answer in seconds.</p>
-            <p>It runs on your hardware, not ours. The folder is plain text on disk. Open it, read it, hand it to anyone competent. Costs are small and visible on the bill.</p>
-            <p>It's not the same as a chatbot you've used before. The chatbot you've used before forgets you between sessions. This one doesn't.</p>
-
-            <div class="cta-row">
-              <a class="btn btn-secondary" href="/how-it-works.html#brain">Read how the brain works</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 5: Pricing summary -->
-    <section class="section">
-      <div class="wrap">
-        <span class="eyebrow">fig 05 / pricing summary</span>
-        <h2 class="section-title">Three pieces. No fine print.</h2>
-
-        <div class="grid-3">
-          <article class="plate">
-            <span class="corner tl">fig 05.01</span>
-            <span class="corner tr">audit</span>
-            <span class="corner br">one-time</span>
-            <div class="plate-body">
-              <h3>Audit. <span class="mono-num">$500</span>.</h3>
-              <p>Paid before the audit starts. You keep the report whether you hire us to build anything or not.</p>
-            </div>
-          </article>
-
-          <article class="plate">
-            <span class="corner tl">fig 05.02</span>
-            <span class="corner tr">build</span>
-            <span class="corner br">scoped after audit</span>
-            <div class="plate-body">
-              <h3>Build. Quoted.</h3>
-              <p>Quoted per engagement after the audit. Milestone payments agreed in writing before work begins.</p>
-            </div>
-          </article>
-
-          <article class="plate">
-            <span class="corner tl">fig 05.03</span>
-            <span class="corner tr">savings split</span>
-            <span class="corner br">36 months</span>
-            <div class="plate-body">
-              <h3>Savings split. <span class="mono-num">50%</span>.</h3>
-              <p>Half of your verified monthly savings, for 36 months. After that, the system is yours free.</p>
-            </div>
-          </article>
-        </div>
-
-        <div class="cta-row">
-          <a class="btn btn-secondary" href="/plans.html">See the full breakdown</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 6: Who this is for -->
-    <section class="section">
-      <div class="wrap">
-        <div class="measure-row">
-          <div>
-            <span class="eyebrow">fig 06 / who</span>
-            <h2 class="section-title">Who this is for.</h2>
-          </div>
-          <div>
-            <p>Kansas City HVAC shops with 2 to 15 techs. You signed up for a dispatch platform that was supposed to pay for itself. It hasn't. You pay <span class="mono-num">$800</span> to <span class="mono-num">$2,500</span> a month for it. Your team uses about a third of the features and the vendor stopped answering the phone six months ago.</p>
-            <p>We start with HVAC because the pain is specific, the savings are countable, and the replacement is buildable in a few weeks. Other verticals are coming. HVAC is first.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 7: Final CTA -->
-    <section class="section">
-      <div class="wrap">
-        <span class="eyebrow">fig 07 / start here</span>
-        <h2 class="section-title">Start with the audit.</h2>
-        <p>Fifteen minutes on the phone. We'll ask what you're paying, what's broken, and whether a replacement makes sense. If it doesn't, we'll tell you.</p>
-
-        <div class="cta-row">
-          <a class="btn btn-primary" href="mailto:simon@anvilshare.ai?subject=Anvilshare%20intro%20call">Book a call</a>
-          <span class="cta-aside"><a href="mailto:simon@anvilshare.ai">simon@anvilshare.ai</a> &middot; <a href="tel:+18163160092">(816) 316-0092</a></span>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <div class="col">
-        <p>Anvilshare is a brand of <a href="https://groundlayer.co">Groundlayer LLC</a>, a Missouri holding company.</p>
-        <p><a href="mailto:simon@anvilshare.ai">simon@anvilshare.ai</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/terms.html">Terms</a></p>
-      </div>
-      <div class="footer-fig">
-        <span>fig footer</span>
-        <span>MMXXVI</span>
-      </div>
+  <section>
+    <h2>The unusual pricing</h2>
+    <div class="pricing-grid">
+      <div class="pricing-row"><strong>Audit:</strong> $500 to $2,000 flat. One time.</div>
+      <div class="pricing-row"><strong>Build:</strong> Free. We get paid out of your savings.</div>
+      <div class="pricing-row"><strong>Monthly:</strong> A percentage of what you stopped paying the old vendor, with a $200 floor.</div>
+      <div class="pricing-row"><strong>Term:</strong> 36 months. After that, license it cheap or take your data and go.</div>
     </div>
+  </section>
+
+  <section>
+    <h2>Tell us what you're paying too much for</h2>
+    <p>Email <a href="mailto:hello@anvilshare.com">hello@anvilshare.com</a> or fill this in. No sales call follow-up unless you ask for one.</p>
+    <form action="https://formspree.io/anvilshare-placeholder" method="POST">
+      <label for="name">Your name</label>
+      <input id="name" name="name" type="text" required>
+      <label for="company">Company</label>
+      <input id="company" name="company" type="text" required>
+      <label for="painsoftware">What software are you paying too much for?</label>
+      <textarea id="painsoftware" name="painsoftware" placeholder="e.g. ServiceTitan, around $600 a month, hate the new app" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <nav aria-label="Footer" style="margin-bottom: 12px;">
+      <a href="/" style="margin-right: 14px;">Home</a>
+      <a href="/ai-ops-cockpit.html" style="margin-right: 14px;">Cockpit</a>
+      <a href="/alternatives.html" style="margin-right: 14px;">Alternatives</a>
+      <a href="/faq.html" style="margin-right: 14px;">FAQ</a>
+      <a href="mailto:hello@anvilshare.com">Contact</a>
+    </nav>
+    Anvilshare is a DBA of Groundlayer LLC, Kansas City Missouri.
   </footer>
+
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Anvilshare",
+  "alternateName": "Anvilshare, a DBA of Groundlayer LLC",
+  "url": "https://anvilshare.ai",
+  "email": "hello@anvilshare.com",
+  "description": "Anvilshare replaces expensive SaaS for small businesses with software they actually own. Pricing is a slice of what the customer saves on their old vendor.",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Groundlayer LLC",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kansas City",
+      "addressRegion": "MO",
+      "addressCountry": "US"
+    }
+  },
+  "areaServed": "United States"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Anvilshare",
+  "url": "https://anvilshare.ai"
+}
+</script>
 
 </body>
 </html>

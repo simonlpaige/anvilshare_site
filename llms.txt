@@ -1,38 +1,60 @@
 # Anvilshare
 
-> We replace the shelf of SaaS subscriptions with one small handful of AI tools that quietly do the work of a dozen subscriptions. Same answers, fewer tabs, four hours back on Tuesday.
+> Anvilshare replaces expensive SaaS for small businesses with software they actually own. Pricing is a slice of what the customer saves on their old vendor. We also sell a lighter wedge called the AI Ops Cockpit, a private setup that keeps a founder's business memory in one place and runs scheduled checks.
 
 ## What we offer
-Anvilshare audits a small business's SaaS stack, identifies the subscriptions that an AI brain can replace, and builds a single replacement brain that runs in the business's own environment. We focus on Kansas City home-services first (HVAC, plumbing, electrical, roofing) because those operations have the heaviest SaaS bloat per employee.
+
+- **SaaS replacement.** We audit the customer's stack, identify the most expensive replaceable system, build a custom replacement in 2 to 4 weeks, and split the savings for 36 months. After that the customer owns or licenses the software cheap.
+- **AI Ops Cockpit.** A private AI operations setup for founders, agencies, and small operators. Includes a private chat channel, local-first memory, a simple dashboard, five starter automations, and weekly health checks for 30 days. Two pilot tiers: Founder ($500 setup, $99/month) and Operator ($1,500 setup, $199/month).
+- **Audit only.** A 90-minute working session plus a written report on every login the customer pays for, with replacement targets and the math on each. Flat fee $500 to $2,000.
+
+## Who it is for
+
+- Small and mid-sized businesses paying $200 a month or more for SaaS like ServiceTitan, Jobber, Mitchell1, or Buildium.
+- Boring verticals where the incumbent software is old and expensive: HVAC, plumbing, dental, dumpster hauling, landscaping, auto shops, small retail.
+- Founder-led companies, agencies, and consultants tired of copy-paste soup between AI chats.
+
+## Who it is not for
+
+- Regulated medical, legal, or banking workflows as the primary use case.
+- Anyone expecting polished self-serve SaaS.
+- Customers whose monthly software bill is under $200 a month. The savings math does not work for either side.
 
 ## How it works
-1. **Audit** ($500). We map your current stack and quantify what you are paying for and what is actually used.
-2. **Build** (quoted per engagement). We replace the redundant subs with one AI brain: scheduling, dispatch, customer notes, follow-ups, light bookkeeping.
-3. **Savings split** (50% for 36 months). You keep all the savings after that.
 
-## Who it's for
-Small home-services businesses (5 to 50 employees) in the Kansas City metro who feel buried under SaaS fees and tab-switching. Owner-operators who run the books themselves are the sweet spot.
+1. The audit. 90-minute session plus a written report. Flat fee, you keep the report.
+2. The build. If the math is good, we build the replacement in 2 to 4 weeks. You keep paying your old vendor until ours actually works.
+3. Share the savings. The day you cancel the old vendor, our meter starts. You pay us a slice of what you stopped paying them, with a $200 floor, for 36 months. Then you license cheap or walk with your data.
 
 ## Pricing
-- Audit: $500 flat.
-- Build: quoted per engagement based on stack size.
-- Three build tiers for the standalone brain (small, medium, large).
-- Savings split: 50% of monthly SaaS savings to anvilshare for 36 months. After that, 100% yours.
+
+- **Audit:** $500 to $2,000 flat, one time.
+- **Build:** No charge up front. Paid out of savings.
+- **Monthly during the deal:** A percentage of saved SaaS spend, $200 floor.
+- **Term:** 36 months, then license cheap or take your data.
+- **AI Ops Cockpit Founder pilot:** $500 setup, $99 a month.
+- **AI Ops Cockpit Operator pilot:** $1,500 setup, $199 a month.
 
 ## Important pages
-- [Home](https://anvilshare.ai/)
-- [How it works](https://anvilshare.ai/how-it-works.html)
-- [Plans](https://anvilshare.ai/plans.html)
-- [Contact](https://anvilshare.ai/contact.html)
-- [Single Brain demo](https://anvilshare.ai/single-brain/)
-- [Privacy](https://anvilshare.ai/privacy.html)
-- [Terms](https://anvilshare.ai/terms.html)
+
+- [Home](https://anvilshare.ai/): the offer in plain language.
+- [AI Ops Cockpit](https://anvilshare.ai/ai-ops-cockpit.html): the lighter pilot product.
+- [Alternatives](https://anvilshare.ai/alternatives.html): honest comparison vs ServiceTitan, Jobber, Zapier-stitched setups, contract devs, and AI consultancies.
+- [FAQ](https://anvilshare.ai/faq.html): pricing, ownership, support, data, and what happens when it breaks.
 
 ## Contact
+
 - Email: hello@anvilshare.com
-- Service area: Kansas City metro (Missouri + Kansas)
+- Service area: United States. Based in Kansas City, Missouri. International is case by case.
+- Response time: within one business day.
 
-## Parent company
-Anvilshare is a DBA of Groundlayer LLC, a Missouri limited liability company. Sole member: Simon L. Paige.
+## About
 
-Last updated: 2026-04-26
+- Owner: Anvilshare is a DBA of Groundlayer LLC, a Missouri holding company run by Simon Paige.
+- Location: Kansas City, Missouri.
+- Founded: 2026.
+- Sibling brands under Groundlayer: RivalDrop (competitive intel for sales teams), Groundlayer (parent).
+
+## Last updated
+
+2026-05-03

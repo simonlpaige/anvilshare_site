@@ -1,4 +1,3 @@
-# robots.txt for anvilshare.ai
 User-agent: *
 Allow: /
 
