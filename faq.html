@@ -1,329 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Anvilshare FAQ</title>
-<meta name="description" content="Plain answers to the questions small business owners ask before hiring Anvilshare. Pricing, ownership, support, data, and what happens when it breaks.">
-<link rel="canonical" href="https://anvilshare.ai/faq.html">
-<meta property="og:title" content="Anvilshare FAQ">
-<meta property="og:description" content="Plain answers to the questions small business owners ask before hiring us.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://anvilshare.ai/faq.html">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Anvilshare FAQ">
-<meta name="twitter:description" content="Plain answers to the questions small business owners ask before hiring us.">
-<style>
-  *, *::before, *::after { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; }
-  body {
-    background: #0a0a0a;
-    color: #f2f2f2;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 17px;
-    line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
-  }
-  a { color: #FF6B35; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .skip { position: absolute; left: -9999px; top: 0; }
-  .skip:focus { left: 16px; top: 16px; background: #FF6B35; color: #0a0a0a; padding: 8px 12px; border-radius: 4px; z-index: 10; }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
-  header.site { display: flex; align-items: center; justify-content: space-between; margin-bottom: 48px; gap: 16px; flex-wrap: wrap; }
-  .brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
-  .brand .dot { color: #FF6B35; }
-  nav.primary a { font-size: 14px; color: #cfcfcf; margin-left: 16px; }
-  nav.primary a:hover { color: #FF6B35; }
-  nav.crumbs { font-size: 13px; color: #888; margin-bottom: 16px; }
-  nav.crumbs a { color: #cfcfcf; }
-  h1 { font-size: 36px; line-height: 1.15; margin: 0 0 18px; letter-spacing: -0.02em; font-weight: 700; }
-  h1 .accent { color: #FF6B35; }
-  .lede { font-size: 19px; color: #cfcfcf; margin: 0 0 48px; max-width: 640px; }
-  section { margin-bottom: 48px; }
-  h2 { font-size: 22px; margin: 0 0 16px; letter-spacing: -0.01em; color: #ffffff; }
-  h2::before { content: ""; display: inline-block; width: 10px; height: 10px; background: #FF6B35; margin-right: 12px; vertical-align: 1px; }
-  details { border: 1px solid #2a2a2a; border-radius: 4px; margin-bottom: 12px; padding: 14px 18px; background: #111; }
-  details[open] { border-color: #FF6B35; }
-  summary { cursor: pointer; font-weight: 600; color: #ffffff; font-size: 17px; line-height: 1.4; }
-  summary::-webkit-details-marker { color: #FF6B35; }
-  details p { margin: 12px 0 0; color: #d8d8d8; }
-  details ul { margin: 12px 0 0; padding-left: 20px; color: #d8d8d8; }
-  details li { margin-bottom: 6px; }
-  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid #2a2a2a; font-size: 13px; color: #888; }
-  footer a { color: #cfcfcf; margin-right: 14px; }
-  @media (max-width: 540px) {
-    main { padding: 32px 20px 64px; }
-    h1 { font-size: 28px; }
-    .lede { font-size: 17px; }
-    summary { font-size: 16px; }
-  }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anvilshare FAQ</title>
+  <meta name="description" content="Plain answers about Anvilshare pilots, private memory, pricing, data, and what we will not touch yet.">
+  <link rel="canonical" href="https://anvilshare.ai/faq.html">
+  <meta property="og:title" content="Anvilshare FAQ">
+  <meta property="og:description" content="Plain answers about Anvilshare pilots, private memory, pricing, data, and what we will not touch yet.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://anvilshare.ai/faq.html">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
-<main id="main">
-
-  <header class="site">
-    <div class="brand"><a href="/">anvilshare<span class="dot">.</span></a></div>
-    <nav class="primary" aria-label="Primary">
-      <a href="/ai-ops-cockpit.html">Cockpit</a>
-      <a href="/alternatives.html">Alternatives</a>
-      <a href="/faq.html">FAQ</a>
-      <a href="mailto:hello@anvilshare.com">Contact</a>
-    </nav>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="/" aria-label="anvilshare.ai home">
+        <img src="/assets/logo-primary.svg" alt="anvilshare.ai" class="site-logo" width="320" height="40">
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/ai-ops-cockpit.html">Cockpit</a>
+        <a href="/alternatives.html">Alternatives</a>
+        <a href="/faq.html" aria-current="page">FAQ</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
-
-  <nav class="crumbs" aria-label="Breadcrumb">
-    <a href="/">Home</a> / FAQ
-  </nav>
-
-  <h1>The questions <span class="accent">small business owners</span> ask before hiring us.</h1>
-
-  <p class="lede">Real answers, in plain language. If your question is not here, email <a href="mailto:hello@anvilshare.com">hello@anvilshare.com</a> and we will add it.</p>
-
-  <section>
-    <h2>Money</h2>
-
-    <details>
-      <summary>How does the slice-of-savings pricing actually work?</summary>
-      <p>If your old SaaS bill was $600 a month and our software costs you nothing to run, you save $600 a month. We charge a percentage of that saved amount, with a $200 monthly floor. The exact slice is set in the build agreement, usually between 25 and 40 percent. The deal runs 36 months, then you license the software cheap or take your data and walk.</p>
-    </details>
-
-    <details>
-      <summary>What is the audit fee for?</summary>
-      <p>The audit is a 90-minute working session plus a written report. We look at every login you pay for, identify replacement targets, and tell you the math on each. The fee is $500 to $2,000 depending on stack size. You keep the report no matter what you do next, including hiring someone else.</p>
-    </details>
-
-    <details>
-      <summary>What if my old SaaS bill is under $200 a month?</summary>
-      <p>The math does not work. The slice of savings will not cover our build cost in 36 months. We will tell you that on the audit call and refund the audit fee if you do not get value from the report.</p>
-    </details>
-
-    <details>
-      <summary>Do I have to cancel my old vendor before the build is done?</summary>
-      <p>No. You keep paying the old vendor until our software actually works. The day you cancel them is the day our meter starts.</p>
-    </details>
-  </section>
-
-  <section>
-    <h2>The build</h2>
-
-    <details>
-      <summary>How long does it take?</summary>
-      <p>First working version in 2 to 4 weeks for most jobs. We ship the boring parts first. Polish lands week 4 to 6.</p>
-    </details>
-
-    <details>
-      <summary>What happens if you build it and it does not work?</summary>
-      <p>You do not pay the monthly. The audit fee is yours to keep, the report is yours, and you stay on your old vendor. We eat the build cost. This is the deal.</p>
-    </details>
-
-    <details>
-      <summary>Who actually writes the code?</summary>
-      <p>Anvilshare builds in a small team using AI as part of the process. A human reviews every change. We will tell you up front which parts are AI-assisted and which are written by hand. The audit log shows every change.</p>
-    </details>
-  </section>
-
-  <section>
-    <h2>Ownership and data</h2>
-
-    <details>
-      <summary>Who owns the software at the end?</summary>
-      <p>You own a perpetual license at month 36. You can either keep paying us a small license fee for updates, or take the source and walk. Your data is yours from day one.</p>
-    </details>
-
-    <details>
-      <summary>Where does my data live?</summary>
-      <p>By default, in a Postgres database hosted on infrastructure we manage in the United States. If you need it on your own AWS or Azure account, we can do that on the Operator and larger pilots. We never sell, share, or aggregate client data.</p>
-    </details>
-
-    <details>
-      <summary>Can I get my data out?</summary>
-      <p>Yes. We provide CSV and SQL exports on request, and the underlying database schema is yours. If you walk at month 36, you take the database with you.</p>
-    </details>
-  </section>
-
-  <section>
-    <h2>Support</h2>
-
-    <details>
-      <summary>What happens when it breaks at 4pm Friday?</summary>
-      <p>You get a Telegram channel with us. Most issues we see and fix within an hour during business hours, and within 4 hours after hours. Critical outages get a phone call. We are clear about what we cannot promise: this is not a 24-hour follow-the-sun operation.</p>
-    </details>
-
-    <details>
-      <summary>What if you go out of business?</summary>
-      <p>We hold the source code in escrow on a third-party service. If Anvilshare stops operating, you get the code, the data, and the deployment guide. Your business does not stop because we did.</p>
-    </details>
-
-    <details>
-      <summary>Do you do training for my team?</summary>
-      <p>Yes. Two working sessions are included in the Operator pilot, and any rewrite ships with a written runbook. Extra sessions are $250 each.</p>
-    </details>
-  </section>
-
-  <section>
-    <h2>Fit</h2>
-
-    <details>
-      <summary>What kinds of businesses are you a fit for?</summary>
-      <p>Small and mid-sized businesses in boring verticals where SaaS is old and expensive. HVAC, plumbing, dental practices, dumpster hauling, landscaping, auto shops, small retail. Founder-led companies and agencies. Anywhere the monthly software bill is over $200 and the team uses about a fifth of what they are paying for.</p>
-    </details>
-
-    <details>
-      <summary>Who are you not a fit for?</summary>
-      <p>Regulated medical, legal, and banking workflows are out for now. Enterprise procurement is out. Anyone expecting a polished self-serve SaaS is out. We will tell you on the call.</p>
-    </details>
-
-    <details>
-      <summary>Do you only work in Kansas City?</summary>
-      <p>We are based in Kansas City and prefer KC for the first build of any new vertical because we like to be on-site. After the first build, we work anywhere in the United States. International is case by case.</p>
-    </details>
-  </section>
-
-  <section>
-    <h2>About us</h2>
-
-    <details>
-      <summary>Who is behind Anvilshare?</summary>
-      <p>Anvilshare is a DBA of Groundlayer LLC, a Missouri holding company run by Simon Paige. Simon has been building software for over a decade and runs several brands under Groundlayer. The Anvilshare focus is replacing SaaS for small businesses with software they actually own.</p>
-    </details>
-
-    <details>
-      <summary>Why "Anvilshare"?</summary>
-      <p>Anvil is where raw material becomes a tool. Share is the pricing model: you bring the SaaS pain, we forge the replacement, we share the upside. The name is a contract.</p>
-    </details>
-  </section>
-
-  <footer>
-    <nav aria-label="Footer">
-      <a href="/">Home</a>
-      <a href="/ai-ops-cockpit.html">Cockpit</a>
-      <a href="/alternatives.html">Alternatives</a>
-      <a href="/faq.html">FAQ</a>
-      <a href="mailto:hello@anvilshare.com">Contact</a>
-    </nav>
-    <p>Anvilshare is a DBA of Groundlayer LLC, Kansas City Missouri.</p>
-    <p>Last updated 2026-05-03.</p>
+  <main id="main">
+    <section class="hero"><div class="wrap"><div class="meta-row"><div class="l"><span>fig 03 / faq</span><span>plain answers</span></div><div class="r"><span>updated 2026-05-04</span></div></div><h1 class="display">Questions<br><span class="italic">before the call.</span></h1><p class="lede">Short answers about the cockpit, the audit, pricing, data, and what we will not touch yet.</p></div></section>
+    <section class="section"><div class="wrap"><ul class="num-list"><li data-num="01"><div><h3>Is this ChatGPT?</h3><p>No. It may use outside models when that is the right tool, but the useful part is the memory, schedule, dashboard, and checks around the model.</p></div></li><li data-num="02"><div><h3>Where does my data live?</h3><p>The default is local-first. We keep business memory in files you control and avoid sending private context where it does not need to go.</p></div></li><li data-num="03"><div><h3>What does a pilot cost?</h3><p>Founder pilot is <span class="mono-num">$500</span> setup and <span class="mono-num">$99</span> a month. Operator pilot is <span class="mono-num">$1,500</span> setup and <span class="mono-num">$199</span> a month.</p></div></li><li data-num="04"><div><h3>Can it replace my SaaS?</h3><p>Sometimes. The cockpit usually comes first. After it watches the work for 30 days, we can see which paid tool is worth replacing.</p></div></li><li data-num="05"><div><h3>What will you not do?</h3><p>We do not start with regulated medical work, legal advice, payroll, banking documents, or anything where a wrong answer can hurt people.</p></div></li><li data-num="06"><div><h3>How fast can this start?</h3><p>A small pilot can usually start within a week. The first useful checks should be running in days, not quarters.</p></div></li></ul></div></section>
+    <section class="section"><div class="wrap"><p class="aside">Good software should feel like a quiet shop tool: close at hand, easy to inspect, and boring enough to trust.</p><h2>Still curious?</h2><p>Send the boring thing you want watched. We will tell you what a pilot would look like.</p><div class="cta-row"><a class="btn btn-primary" href="mailto:hello@anvilshare.com?subject=Anvilshare%20question">Email a question</a></div></div></section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="col">
+        <p>Anvilshare is a DBA of Groundlayer LLC, Kansas City Missouri.</p>
+        <p><a href="mailto:hello@anvilshare.com">hello@anvilshare.com</a></p>
+      </div>
+      <div class="col">
+        <a href="/privacy.html">Privacy</a><br>
+        <a href="/terms.html">Terms</a>
+      </div>
+      <div class="footer-fig">
+        <span>fig footer</span>
+        <span>MMXXVI</span>
+      </div>
+    </div>
   </footer>
 
-</main>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does the slice-of-savings pricing actually work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If your old SaaS bill was $600 a month and our software costs you nothing to run, you save $600 a month. We charge a percentage of that saved amount, with a $200 monthly floor. The exact slice is set in the build agreement, usually between 25 and 40 percent. The deal runs 36 months, then you license the software cheap or take your data and walk."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the audit fee for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The audit is a 90-minute working session plus a written report. We look at every login you pay for, identify replacement targets, and tell you the math on each. The fee is $500 to $2,000 depending on stack size. You keep the report no matter what you do next."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if my old SaaS bill is under $200 a month?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The math does not work. The slice of savings will not cover our build cost in 36 months. We will tell you that on the audit call and refund the audit fee if you do not get value from the report."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I have to cancel my old vendor before the build is done?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. You keep paying the old vendor until our software actually works. The day you cancel them is the day our meter starts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does the build take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "First working version in 2 to 4 weeks for most jobs. We ship the boring parts first. Polish lands week 4 to 6."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you build it and it does not work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You do not pay the monthly. The audit fee is yours to keep, the report is yours, and you stay on your old vendor. We eat the build cost."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who owns the software at the end?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You own a perpetual license at month 36. You can either keep paying us a small license fee for updates, or take the source and walk. Your data is yours from day one."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where does my data live?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "By default, in a Postgres database hosted on infrastructure we manage in the United States. If you need it on your own AWS or Azure account, we can do that on the Operator and larger pilots. We never sell, share, or aggregate client data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens when it breaks at 4pm Friday?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You get a Telegram channel with us. Most issues we see and fix within an hour during business hours, and within 4 hours after hours. Critical outages get a phone call. This is not a 24-hour follow-the-sun operation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if Anvilshare goes out of business?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We hold the source code in escrow on a third-party service. If Anvilshare stops operating, you get the code, the data, and the deployment guide."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What kinds of businesses are you a fit for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Small and mid-sized businesses in boring verticals where SaaS is old and expensive. HVAC, plumbing, dental practices, dumpster hauling, landscaping, auto shops, small retail. Founder-led companies and agencies. Anywhere the monthly software bill is over $200 and the team uses about a fifth of what they are paying for."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who are you not a fit for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Regulated medical, legal, and banking workflows are out for now. Enterprise procurement is out. Anyone expecting a polished self-serve SaaS is out."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://anvilshare.ai/" },
-    { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://anvilshare.ai/faq.html" }
-  ]
-}
-</script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","name":"Anvilshare FAQ","url":"https://anvilshare.ai/faq.html","isPartOf":{"@type":"WebSite","name":"Anvilshare","url":"https://anvilshare.ai/"}}</script>
 </body>
 </html>

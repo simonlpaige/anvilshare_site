@@ -1,234 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Anvilshare</title>
-<meta name="description" content="We replace expensive SaaS with software you actually own. Pay us a slice of what you save.">
-<link rel="canonical" href="https://anvilshare.ai/">
-<meta property="og:title" content="Anvilshare, replacement studio for expensive SaaS">
-<meta property="og:description" content="We replace expensive SaaS with software you actually own. Pay us a slice of what you save.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://anvilshare.ai/">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Anvilshare">
-<meta name="twitter:description" content="We replace expensive SaaS with software you actually own.">
-<style>
-  *, *::before, *::after { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; }
-  body {
-    background: #0a0a0a;
-    color: #f2f2f2;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 17px;
-    line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
-  }
-  a { color: #FF6B35; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
-  header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 64px; }
-  .brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
-  .brand .dot { color: #FF6B35; }
-  .nav-email { font-size: 14px; color: #FF6B35; }
-  h1 {
-    font-size: 38px;
-    line-height: 1.15;
-    margin: 0 0 20px;
-    letter-spacing: -0.02em;
-    font-weight: 700;
-  }
-  h1 .accent { color: #FF6B35; }
-  .lede {
-    font-size: 19px;
-    color: #cfcfcf;
-    margin: 0 0 56px;
-    max-width: 640px;
-  }
-  section { margin-bottom: 56px; }
-  h2 {
-    font-size: 22px;
-    margin: 0 0 16px;
-    letter-spacing: -0.01em;
-    color: #ffffff;
-  }
-  h2::before {
-    content: "";
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: #FF6B35;
-    margin-right: 12px;
-    vertical-align: 1px;
-  }
-  p { margin: 0 0 14px; color: #d8d8d8; }
-  ul { padding-left: 20px; margin: 0 0 14px; }
-  li { margin-bottom: 8px; color: #d8d8d8; }
-  .pricing-grid {
-    border: 1px solid #2a2a2a;
-    border-radius: 4px;
-    padding: 0;
-    overflow: hidden;
-  }
-  .pricing-row {
-    padding: 18px 20px;
-    border-bottom: 1px solid #2a2a2a;
-  }
-  .pricing-row:last-child { border-bottom: 0; }
-  .pricing-row strong { color: #FF6B35; }
-  form {
-    display: grid;
-    gap: 12px;
-    max-width: 480px;
-    margin-top: 16px;
-  }
-  label {
-    font-size: 13px;
-    color: #a0a0a0;
-    margin-bottom: -6px;
-  }
-  input, textarea {
-    background: #141414;
-    border: 1px solid #2a2a2a;
-    color: #f2f2f2;
-    padding: 12px 14px;
-    border-radius: 4px;
-    font-family: inherit;
-    font-size: 16px;
-    width: 100%;
-  }
-  input:focus, textarea:focus {
-    outline: none;
-    border-color: #FF6B35;
-  }
-  textarea { resize: vertical; min-height: 90px; }
-  button {
-    background: #FF6B35;
-    color: #0a0a0a;
-    border: 0;
-    padding: 12px 20px;
-    border-radius: 4px;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    justify-self: start;
-  }
-  button:hover { background: #ff8255; }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid #2a2a2a;
-    font-size: 13px;
-    color: #888;
-  }
-  @media (max-width: 540px) {
-    main { padding: 32px 20px 64px; }
-    h1 { font-size: 30px; }
-    .lede { font-size: 17px; }
-  }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anvilshare, private AI operations cockpit</title>
+  <meta name="description" content="A private AI operations cockpit for founders and small teams. Memory, scheduled checks, and short messages when something needs a human.">
+  <link rel="canonical" href="https://anvilshare.ai/">
+  <meta property="og:title" content="Anvilshare, private AI operations cockpit">
+  <meta property="og:description" content="A private AI operations cockpit for founders and small teams. Memory, scheduled checks, and short messages when something needs a human.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://anvilshare.ai/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
 </head>
 <body>
-<main>
-
-  <header>
-    <div class="brand">anvilshare<span class="dot">.</span></div>
-    <nav class="nav-email" aria-label="Primary">
-      <a href="/ai-ops-cockpit.html" style="margin-right: 14px;">Cockpit</a>
-      <a href="/alternatives.html" style="margin-right: 14px;">Alternatives</a>
-      <a href="/faq.html" style="margin-right: 14px;">FAQ</a>
-      <a href="mailto:hello@anvilshare.com">hello@anvilshare.com</a>
-    </nav>
-  </header>
-
-  <h1>We replace expensive SaaS with software <span class="accent">you actually own</span>. Pay us a slice of what you save.</h1>
-
-  <p class="lede">Most business software is twenty-year-old code in a fresh paint job. Built for huge companies, sold to small ones, priced like rent. We rewrite it for your shop and split the savings with you.</p>
-
-  <section>
-    <h2>Who this is for</h2>
-    <p>Small business owners stuck paying $200 a month or more for ServiceTitan, Jobber, Mitchell1, Buildium, or one of the other platforms that bills you like an enterprise customer and treats you like a ticket number.</p>
-    <p>If you use about 20% of what your software does and pay 100% of the price, this is for you.</p>
-  </section>
-
-  <section>
-    <h2>How it works</h2>
-    <ul>
-      <li><strong>The audit.</strong> We sit with you for 90 minutes, look at every login you pay for, and write you a plain-English report. Flat fee. You keep the report no matter what you do next.</li>
-      <li><strong>The build.</strong> If the math makes sense, we build the replacement. First version in 2 to 4 weeks. You keep paying your old vendor until our software actually works. Then you cancel them.</li>
-      <li><strong>Share the savings.</strong> The day you cancel the old SaaS, the meter starts. You pay us a slice of what you used to pay them, every month, for three years. After that you license the software for cheap or walk away with your data.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>The unusual pricing</h2>
-    <div class="pricing-grid">
-      <div class="pricing-row"><strong>Audit:</strong> $500 to $2,000 flat. One time.</div>
-      <div class="pricing-row"><strong>Build:</strong> Free. We get paid out of your savings.</div>
-      <div class="pricing-row"><strong>Monthly:</strong> A percentage of what you stopped paying the old vendor, with a $200 floor.</div>
-      <div class="pricing-row"><strong>Term:</strong> 36 months. After that, license it cheap or take your data and go.</div>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="/" aria-label="anvilshare.ai home">
+        <img src="/assets/logo-primary.svg" alt="anvilshare.ai" class="site-logo" width="320" height="40">
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/ai-ops-cockpit.html">Cockpit</a>
+        <a href="/alternatives.html">Alternatives</a>
+        <a href="/faq.html">FAQ</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
     </div>
-  </section>
-
-  <section>
-    <h2>Tell us what you're paying too much for</h2>
-    <p>Email <a href="mailto:hello@anvilshare.com">hello@anvilshare.com</a> or fill this in. No sales call follow-up unless you ask for one.</p>
-    <form action="https://formspree.io/anvilshare-placeholder" method="POST">
-      <label for="name">Your name</label>
-      <input id="name" name="name" type="text" required>
-      <label for="company">Company</label>
-      <input id="company" name="company" type="text" required>
-      <label for="painsoftware">What software are you paying too much for?</label>
-      <textarea id="painsoftware" name="painsoftware" placeholder="e.g. ServiceTitan, around $600 a month, hate the new app" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-  <footer>
-    <nav aria-label="Footer" style="margin-bottom: 12px;">
-      <a href="/" style="margin-right: 14px;">Home</a>
-      <a href="/ai-ops-cockpit.html" style="margin-right: 14px;">Cockpit</a>
-      <a href="/alternatives.html" style="margin-right: 14px;">Alternatives</a>
-      <a href="/faq.html" style="margin-right: 14px;">FAQ</a>
-      <a href="mailto:hello@anvilshare.com">Contact</a>
-    </nav>
-    Anvilshare is a DBA of Groundlayer LLC, Kansas City Missouri.
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div class="meta-row"><div class="l"><span>anvilshare.ai</span><span>fig 00 / home</span></div><div class="r"><span>kansas city, mo</span><span>private ops cockpit</span></div></div>
+        <h1 class="display">Replace the shelf.<br><span class="italic">Keep the afternoon.</span></h1>
+        <p class="lede">Anvilshare gives founders and small teams a private AI operations cockpit: memory that stays put, scheduled checks that run without nagging, and short messages when something needs a human.</p>
+        <div class="cta-row"><a class="btn btn-primary" href="/ai-ops-cockpit.html">See the cockpit</a><a class="btn btn-secondary" href="/contact.html">Start a pilot</a></div>
+      </div>
+    </section>
+    <section class="section"><div class="wrap measure-row"><div><span class="eyebrow">The boring math</span><h2 class="section-title">Five checks beat fifty tabs.</h2></div><div><p>Most founders already use AI. The waste is not the chat window. The waste is copying context back in, hunting for the right file, and remembering which boring thing needed a look this morning.</p><p class="aside">We did not set out to make another dashboard. We set out to make the dashboard look back.</p></div></div></section>
+    <section class="section"><div class="wrap"><span class="eyebrow">How it works</span><div class="grid-3">
+      <article class="plate"><span class="corner tl">fig 01</span><span class="corner tr">audit</span><div class="plate-body"><h3>Map the work.</h3><p>We list what you pay for, what you actually open, and which follow-up loops quietly leak hours.</p></div></article>
+      <article class="plate"><span class="corner tl">fig 02</span><span class="corner tr">build</span><div class="plate-body"><h3>Install the cockpit.</h3><p>You get a private chat, a local memory folder, a small dashboard, and the first five checks wired to your business.</p></div></article>
+      <article class="plate"><span class="corner tl">fig 03</span><span class="corner tr">watch</span><div class="plate-body"><h3>Let it run.</h3><p>The cockpit checks the dull stuff on schedule and texts you only when the answer needs judgment.</p></div></article>
+    </div></div></section>
+    <section class="section"><div class="wrap measure-row"><div><span class="eyebrow">What it replaces</span><h2 class="section-title">A little rack of daily machines.</h2></div><ul class="flat-list"><li><h4>Morning brief</h4><p>What matters today, what is stuck, and what decision would clear the board.</p></li><li><h4>Open-loop tracker</h4><p>Who owes what, when, and the next plain move.</p></li><li><h4>Website monitor</h4><p>Broken pages, forms, uptime, and visible regressions.</p></li><li><h4>Weekly review</h4><p>What shipped, what failed, what changed, and what to try next.</p></li></ul></div></section>
+    <section class="section" id="brain"><div class="wrap measure-row"><div><span class="eyebrow">The brain</span><h2 class="section-title">Memory that survives Tuesday.</h2></div><div><p>Every cockpit includes a private business brain. It reads the files you point it at, remembers the decisions you made, and gives tomorrow's check the context from yesterday.</p><p>It is not ChatGPT with extra steps. ChatGPT forgets you between sessions. This does not.</p><div class="cta-row"><a class="btn btn-primary" href="/ai-ops-cockpit.html">Read the cockpit page</a></div></div></div></section>
+    <section class="section"><div class="wrap"><span class="eyebrow">Pilot pricing</span><div class="grid-2"><article class="plate dark"><span class="corner tl">pilot 01</span><span class="corner tr">founder</span><div class="plate-body"><h3>Founder AI Ops Pilot</h3><p><span class="mono-num">$500</span> setup, then <span class="mono-num">$99</span> a month.</p></div></article><article class="plate steel"><span class="corner tl">pilot 02</span><span class="corner tr">operator</span><div class="plate-body"><h3>Operator AI Ops Pilot</h3><p><span class="mono-num">$1,500</span> setup, then <span class="mono-num">$199</span> a month.</p></div></article></div></div></section>
+    <section class="section"><div class="wrap"><h2>Start with one boring thing.</h2><p>Tell us the thing you keep checking by hand. We will tell you if a cockpit makes sense. If it does not, we will say so.</p><div class="cta-row"><a class="btn btn-primary" href="mailto:hello@anvilshare.com?subject=Anvilshare%20pilot">Email hello@anvilshare.com</a></div></div></section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="col">
+        <p>Anvilshare is a DBA of Groundlayer LLC, Kansas City Missouri.</p>
+        <p><a href="mailto:hello@anvilshare.com">hello@anvilshare.com</a></p>
+      </div>
+      <div class="col">
+        <a href="/privacy.html">Privacy</a><br>
+        <a href="/terms.html">Terms</a>
+      </div>
+      <div class="footer-fig">
+        <span>fig footer</span>
+        <span>MMXXVI</span>
+      </div>
+    </div>
   </footer>
-
-</main>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Anvilshare",
-  "alternateName": "Anvilshare, a DBA of Groundlayer LLC",
-  "url": "https://anvilshare.ai",
-  "email": "hello@anvilshare.com",
-  "description": "Anvilshare replaces expensive SaaS for small businesses with software they actually own. Pricing is a slice of what the customer saves on their old vendor.",
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "Groundlayer LLC",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Kansas City",
-      "addressRegion": "MO",
-      "addressCountry": "US"
-    }
-  },
-  "areaServed": "United States"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Anvilshare",
-  "url": "https://anvilshare.ai"
-}
-</script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Anvilshare","url":"https://anvilshare.ai","email":"hello@anvilshare.com","parentOrganization":{"@type":"Organization","name":"Groundlayer LLC"}}</script>
 </body>
 </html>
